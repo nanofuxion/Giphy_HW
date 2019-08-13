@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bare - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Bootstrap & JQuery JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="row mt-1">
+        <div id="btnList" class="col-12 mb-1">
+          <button class="rounded" data-animal="bird dog">chirp</button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Animal Gif Search.</h1>
+        <p class="lead">Type in the name of an animal and hit Search. </br>
+          p.s. ...It also work with non-animal searches, for the memes.</p>
+        <div class="col-12">
+            <form class="navbar-form navbar-right" role="form">
+                <div class="form-group">
+                  <input type="text" placeholder="Animal" class="form-control rounded">
+                </div>
+                <button type="submit" class="btn btn-success rounded">Search</button>
+              </form>
+        </div>
+
+        <div id="gifs-appear-here" class="row">
+        </div>
+          <ul class="list-unstyled mt-5">
+            <li>Made by:</li>
+            <li>@Nanofuxion</li>
+          </ul>
+
+      </div>
+    </div>
+
+  <!-- api getter code -->
+  <script src="js/getter.js"></script>
+
+  <!-- button loader code -->
+  <script src="js/buttonList.js"></script>
+
+
+</body>
+
+</html>
